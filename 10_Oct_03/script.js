@@ -74,7 +74,7 @@ async function getProducts() {
 }
 
 
-// incase if the image of the product is not available, then this alt image will be used
+// some of the product images is not available, this alt image will be used
 function altImage(event) {
   event.srcElement.src = "./images/N-A.jpg";
 }
